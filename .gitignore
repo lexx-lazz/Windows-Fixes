@@ -1,0 +1,24 @@
+# Agent material. Local to this machine, and STATE.md routinely quotes real names and paths.
+# CLAUDE.md must stay at the repo ROOT — the tooling finds it there by name — so it is
+# ignored rather than moved.
+CLAUDE.md
+AGENTS.md
+HANDOFF*.md
+.claude/
+.codex/
+.cursor/
+.aider*
+
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
